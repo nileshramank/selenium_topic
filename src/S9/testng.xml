@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="D:/IJ/selenium_topic/src/S9">
+    <classes><class name="S9.ex"><methods>
+        <include name="sum"/>
+        <include name="mul"/>
+        <include name="sub"/>
+    </methods>
+    </class>
+        <parameter name="b" value="9"></parameter>
+        <parameter name="a" value="5"></parameter>
+    </classes>
+</test>
+</suite>
